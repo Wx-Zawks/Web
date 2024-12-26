@@ -1,0 +1,349 @@
+/* 首页内容样式 */
+/* banner */
+.banner{
+    height: 500px;
+    background-color: #f5f5f5;
+}
+
+.banner .wrapper{
+    position: relative;
+    height: 500px;
+    background-color: grey;
+    overflow: hidden;
+}
+
+.banner .pic{
+    display: flex;
+    width: 3720px;
+}
+
+.banner .subnav{
+    position: absolute;
+    width: 250px;
+    height: 500px;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.42);
+}
+
+.banner .subnav li{
+    height: 50px;
+    /* background-color: pink; */
+    line-height: 50px;
+    padding-left: 30px;
+    padding-right: 12px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.banner .subnav li a{
+    margin-right: 5px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.banner .subnav li .classify{
+    margin: 14px;
+    font-size: 16px;
+}
+
+.banner ol {
+    position: absolute;
+    bottom: 17px;
+    right: 16px;
+    display: flex;
+    
+}
+
+.banner ol li{
+    width: 22px;
+    height: 22px;
+    /* background-color: pink; */
+    border-radius: 50%;
+    margin-left: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.banner ol i{
+    width: 14px;
+    height: 14px;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 50%;
+    display: block;
+}
+
+.banner ol .active{
+    background-color: rgba(255,255,255,0.5);
+}
+
+.banner ol .active i{
+    background-color: #fff;
+}
+
+.recommend .bd li{
+    background-color: #fff;
+}
+
+.recommend .bd p{
+    color: #a1a1a1;
+}
+
+/* 热门品牌 */
+.brand{
+    margin-top: 60px;
+    height: 468px;
+    background-color: #f5f5f5;
+}
+
+.brand .wrapper{
+    overflow: hidden;
+    height: 468px;
+    /* background-color: pink; */
+}
+
+.brand .title{
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.brand .button{
+    position: absolute;
+    right: 0;
+    bottom: -25px;
+    display: flex;
+}
+
+.brand .button a{
+    margin-left: 12px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+}
+
+.brand .button .prev{
+    background-color: #ddd;
+}
+
+.brand .button .next{
+    background-color: #00be9a;
+}
+
+.brand .bd li{
+    width: 244px;
+    height: 306px;
+}
+
+/* 生鲜 */
+.fresh .title{
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.fresh .title .right ul{
+    display: flex;
+    margin-top: 10px;
+    margin-right: 58px;
+}
+
+.fresh .title .right ul a{
+    margin-left: 6px;
+    height: 20px;
+    /* background-color: pink; */
+    display: block;
+    padding: 0 7px;
+    line-height: 20px;
+}
+
+.fresh .title .right ul .active{
+    background-color: #00be9a;
+    color: #fff;
+}
+
+.fresh .content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fresh .content .left{
+    width: 248px;
+    height: 610px;
+    /* background-color: pink; */
+}
+
+.fresh .content .right{
+    width: 968px;
+    height: 610px;
+    /* background-color: pink; */
+}
+
+.fresh .content .right ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fresh .content .right li{
+    padding: 10px 21px 0;
+    width: 242px;
+    height: 305px;
+    /* display: flex; */
+    position: relative;
+    border: 2px solid #fff;
+    overflow: hidden;
+}
+
+.fresh .content .pic{
+    width: 200px;
+    height: 180px;
+}
+
+.fresh .content .info{
+    margin-top: 14px;
+    margin-bottom: 5px;
+    height: 60px;
+    line-height: 19px;
+}
+
+.fresh .content .price{
+    color: #af2f22;
+}
+
+.fresh .content .price i{
+    font-size: 22px;
+}
+
+.fresh .content li .cover{
+    width: 242px;
+    height: 84px;
+    left: 0;
+    bottom: -86px;
+    background-color: #00be9a;
+    position: absolute;
+    text-align: center;
+    padding-top: 15px;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+
+.fresh .content li .cover p:first-child{
+    font-size: 18px;
+}
+
+.fresh .content li .cover p:nth-child(2){
+    width: 120px;
+    height: 1px;
+    background-color: rgba(255,255,255,0.11);
+    margin: 3px auto 6px;
+}
+
+.fresh .content li .cover p:last-child{
+    font-size: 13px;
+}
+
+.fresh .content li .cover p:last-child .iconfont{
+    font-size: 14px;
+}
+
+.fresh .content .right li:hover .cover{
+    bottom: 0;
+    
+}
+
+.fresh .content .right li:hover{
+    border: 2px solid #00be9a;
+}
+
+/* 最新专题 */
+
+/* 最新专题 */
+.topic {
+    margin-bottom: 40px;
+  }
+  
+  .topic .title {
+    margin-top: 100px;
+  }
+  
+  .topic-bd ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .topic-bd li {
+    width: 405px;
+    height: 355px;
+    /* background-color: pink; */
+  }
+  
+  .topic-bd .pic {
+    position: relative;
+    width: 405px;
+    height: 288px;
+  }
+  
+  .topic-bd .txt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    width: 405px;
+    height: 67px;
+    /* background-color: skyblue; */
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .topic-bd .txt .left {
+    display: flex;
+  }
+  
+  .topic-bd .txt .left p {
+    margin-right: 20px;
+  }
+  
+  .topic-bd .txt .left p:nth-child(1) i {
+    color: #AA2113;
+  }
+  
+  /* 定位区域 - 文字 */
+  .topic-bd .cover {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    padding: 0 15px;
+    width: 405px;
+    height: 90px;
+    background-image: linear-gradient(180deg, rgba(137,137,137,0.00) 0%, rgba(0,0,0,0.90) 100%);
+  }
+  
+  .topic-bd .cover .left {
+    color: #fff;
+  }
+  
+  .topic-bd .cover .left h4 {
+    margin-bottom: 6px;
+    font-size: 20px;
+  }
+  
+  .topic-bd .cover .right {
+    padding: 0 7px;
+    height: 25px;
+    background-color: #fff;
+    color: #AA2113;
+    font-size: 15px;
+  }
+  
+  .topic-bd .cover .right span {
+    font-size: 18px;
+  }
